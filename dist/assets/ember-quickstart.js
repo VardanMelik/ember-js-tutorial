@@ -27,19 +27,16 @@
   _exports.default = void 0;
 
   var _default = Ember.Component.extend({
-    model() {
-      this._super(...arguments);
-
-      console.log('Model Render');
-    }
-    /* willRender() {
-         console.log('willRender');
-     }
-     didRender() {
-         console.log('didRender');
-     }*/
-
-
+    /*model() {
+          this._super(...arguments)
+          console.log('Model Render');
+      }
+        willRender() {
+           console.log('willRender');
+       }
+       didRender() {
+           console.log('didRender');
+       }*/
   });
 
   _exports.default = _default;
@@ -408,7 +405,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+f87d9a7a"});
+            require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+37f5ba3a"});
           }
         
 //# sourceMappingURL=ember-quickstart.map

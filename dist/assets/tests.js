@@ -34,7 +34,7 @@ define("ember-quickstart/tests/lint/app.lint-test", [], function () {
   });
   QUnit.test('components/people-list.js', function (assert) {
     assert.expect(1);
-    assert.ok(false, 'components/people-list.js should pass ESLint\n\n8:9 - Unexpected console statement. (no-console)');
+    assert.ok(true, 'components/people-list.js should pass ESLint\n\n');
   });
   QUnit.test('resolver.js', function (assert) {
     assert.expect(1);
